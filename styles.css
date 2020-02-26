@@ -1,18 +1,22 @@
 /* image floats in paragraphs */
 p {
-    display: inline-block
+    display: inline-block;
 }
 p img {
     width: 22;
 
-
-
-    h1 {
+h1 {
     font-size: 2rem;
 }
 
 
+p img { 
+    width: 220px;
+    float: left;
+    clear: both;
+    margin: 0 1em 1em 0:
 
+}
 p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2rem;
@@ -27,10 +31,22 @@ p {
     list-style-type: none;
 }
 
+.current-page{
+    background-color: green;
+    color: purple;
+}
+
 #main-nav a {
     padding: 1em;
     border: 3px solid blue;
     display: block;
     text-decoration: none;
     float: left;
+}
+
+
+#main-nav a: hover {
+    background-color: red;
+    color: #000000;
+
 }
